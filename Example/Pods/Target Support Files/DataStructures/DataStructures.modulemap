@@ -1,0 +1,6 @@
+framework module DataStructures {
+  umbrella header "DataStructures-umbrella.h"
+
+  export *
+  module * { export * }
+}
