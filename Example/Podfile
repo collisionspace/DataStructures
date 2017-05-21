@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DataStructures_Example' do
+  pod 'DataStructures', :path => '../'
+
+  target 'DataStructures_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
